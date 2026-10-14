@@ -18,7 +18,7 @@ To use only the MCP server, add this to `.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "sentivel": { "url": "https://mcp.sentivel.com/mcp" }
+    "sentivel": { "type": "http", "url": "https://mcp.sentivel.com/mcp" }
   }
 }
 ```

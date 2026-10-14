@@ -1,6 +1,7 @@
 {
   "mcpServers": {
     "sentivel": {
+      "type": "http",
       "url": "https://mcp.sentivel.com/mcp"
     }
   }
