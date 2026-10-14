@@ -1,0 +1,15 @@
+{
+  "name": "sentivel",
+  "displayName": "Sentivel",
+  "version": "0.1.0",
+  "description": "Set up monitors, status pages and on-call in Sentivel, and run incidents from Cursor.",
+  "author": {
+    "name": "Sentivel",
+    "email": "jenson@sentivel.com"
+  },
+  "homepage": "https://www.sentivel.com",
+  "repository": "https://github.com/Sentivel/cursor-plugin",
+  "license": "MIT",
+  "keywords": ["sentivel", "monitoring", "uptime", "status-page", "incidents", "on-call", "mcp"],
+  "logo": "assets/logo.svg"
+}

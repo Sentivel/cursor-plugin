@@ -1,0 +1,11 @@
+---
+description: How to use the Sentivel MCP tools when the user asks about monitoring, uptime, status pages, incidents or on-call
+alwaysApply: false
+---
+
+- Call `sentivel_whoami` first. It returns the workspace and the role, and the role decides which tools will work.
+- If the user belongs to more than one workspace, call `sentivel_list_workspaces` and ask which one before you create anything.
+- List before you create. Check `sentivel_list_monitors`, `sentivel_list_components` and `sentivel_list_status_pages` so you don't add duplicates.
+- Ask before you delete anything or post an incident update. Incident updates show on a public status page.
+- Write incident updates for the customers who read the status page: what is affected, what you know, and when the next update comes. Leave out internal names, hostnames and stack traces.
+- Member invites, role changes and billing are not available to tools. Send the user to the Sentivel dashboard for those.
